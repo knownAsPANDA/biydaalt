@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.top-banner {
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.shop-link {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-item:hover {
+    color: #0071e3;
+}
+
+.Logo svg {
+    fill: black;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+    colors: [
+        {
+            color: '#29050B',
+            enabled: true,
+        }
+        {
+            color: '#091112',
+            enabled: true,
+        }
+        {
+            color: '#5C584B',
+            enabled: true,
+        }
+        {
+            color: '#221839',
+            enabled: true,
+        }
+        {
+            color: '#221E33',
+            enabled: true,
+        }
+    
+    speed: 3,
+    horizontalPressure: 3,
+    verticalPressure: 5,
+    waveFrequencyX: 4,
+    waveFrequencyY: 2,
+    waveAmplitude: 5,
+    shadows: 1,
+    highlights: 5,
+    colorBrightness: 1,
+    colorSaturation: 7,
+    wireframe: false,
+    colorBlending: 10,
+    backgroundColor: '#003FFF',
+    backgroundAlpha: 1,
+    grainScale: 3,
+    grainSparsity: 0.02,
+    grainIntensity: 0.3,
+    grainSpeed: 1,
+    resolution: 1,

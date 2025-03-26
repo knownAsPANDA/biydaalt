@@ -1,18 +1,15 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Header & Nav */
 header {
     position: fixed;
     top: 0;
@@ -38,7 +35,7 @@ nav {
     align-items: center;
 }
 
-/* Logo */
+/* Logo zyu */
 .logo {
     display: flex;
     align-items: center;
@@ -55,7 +52,6 @@ nav {
     opacity: 0.65;
 }
 
-/* Nav Items */
 .nav-items {
     display: flex;
     align-items: center;
